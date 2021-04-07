@@ -29,15 +29,7 @@ const NavBar = () => {
 
   return (
     <nav className="navbar">
-      <div className="nav-wrapper">
-        <div className="logo">
-          <Link to="/">
-            <img
-              src="https://github.com/DwinaTech/public-images/blob/main/DwinaTech-brand.png?raw=true"
-              alt="brand"
-            />
-          </Link>
-        </div>
+      <div className="nav-wrapper">        
         <div className="list-wrapper">
           <img
             src="https://github.com/DwinaTech/public-images/blob/main/menu-bars.png?raw=true"
@@ -92,16 +84,7 @@ const NavBar = () => {
               >
                 Works
               </Link>
-            </li>
-            <li>
-              <Link
-                to="/contact"
-                onClick={handleClose}
-                style={{ color: location.pathname === "/contact" && "#4071f4" }}
-              >
-                Contact
-              </Link>
-            </li>
+            </li>            
           </ul>
         </div>
       </div>

@@ -7,20 +7,19 @@ const Home = () => {
     <div className="home">
       <div className="title">
         <h1>
-          <p>Hi,</p>
-          <p>I am Mohammed</p>
-          <p>Software developer</p>
+          <p>Diego Nonato</p>
+          <p>Programador Web</p>
         </h1>
         <Link to="about">
-          <button>More Info</button>
+          <button>Saiba Mais</button>
         </Link>
       </div>
       <div className="person">
         <img
-          src={`${process.env.PUBLIC_URL}/mo-logo.png`}
+          src={`${process.env.PUBLIC_URL}/background.jpg`}
           alt="person picture"
         />
-      </div>
+      </div> 
     </div>
   );
 };

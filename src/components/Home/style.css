@@ -8,14 +8,22 @@
 
 .home .title {
   width: 100%;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   font-family: "Righteous", cursive;
 }
 
 .home .title p {
   line-height: 50px;
+  margin-bottom: 35px;
 }
+
+.home .title p:first-child {
+  color: #3f71f4;
+  text-transform: uppercase;
+
+}
+
 
 .home .title button {
   border: none;
@@ -28,6 +36,13 @@
   border-radius: 999px;
   background-color: #3f71f4;
   font-family: "Righteous", cursive;
+  text-transform: uppercase;
+  
+}
+
+.home .title button:hover {
+  color: #000000;
+  background-color: #dddddd;
 }
 
 .home .person {
@@ -36,7 +51,11 @@
 }
 
 .home .person img {
-  width: 80%;
+  width: 100%;  
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 44px 69px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 44px 69px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 44px 69px 0px rgba(0,0,0,0.75);
 }
 
 @media (min-width: 800px) {
